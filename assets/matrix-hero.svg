@@ -1,30 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-label="Swarit Mathur — cybersecurity and Python">
-<title>Swarit Mathur</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" role="img" aria-label="Swarit Mathur — animated Matrix cybersecurity profile banner">
+<title>Swarit Mathur — Glitch Matrix Banner</title>
 <defs>
-  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#03140a"/><stop offset="1" stop-color="#020805"/></linearGradient>
-  <linearGradient id="line"><stop stop-color="#00ff41" stop-opacity="0"/><stop offset=".5" stop-color="#00ff41"/><stop offset="1" stop-color="#00ff41" stop-opacity="0"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x2="0" y2="1">
+    <stop offset="0" stop-color="#03140a"/>
+    <stop offset="1" stop-color="#020805"/>
+  </linearGradient>
+  <linearGradient id="line">
+    <stop stop-color="#00ff41" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#00ff41"/>
+    <stop offset="1" stop-color="#00ff41" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="frame"><rect width="1200" height="390" rx="18"/></clipPath>
+  <clipPath id="avatarClip"><circle cx="600" cy="125" r="75"/></clipPath>
   <style>
-    .rain{font:16px monospace;fill:#00ff41;opacity:.45;animation:fall 8s linear infinite}
-    .rain2{animation-delay:-4s;opacity:.22}
+    .rain{font:16px monospace;fill:#00ff41;opacity:.42;animation:fall 9s linear infinite}
+    .rain.delay{animation-delay:-4.5s;opacity:.24}
+    .ring{transform-origin:600px 125px;animation:spin 24s linear infinite}
+    .ring.reverse{animation-direction:reverse;animation-duration:34s}
     .pulse{animation:pulse 2.8s ease-in-out infinite}
-    @keyframes fall{from{transform:translateY(-220px)}to{transform:translateY(420px)}}
-    @keyframes pulse{50%{opacity:.35}}
+    .scan{animation:scan 3.8s linear infinite}
+    .flicker{animation:flicker 5.7s steps(1,end) infinite}
+    .glitchA{animation:glitchA 3.1s steps(1,end) infinite}
+    .glitchB{animation:glitchB 3.1s steps(1,end) infinite}
+    .glitchCut{animation:glitchCut 3.1s steps(1,end) infinite}
+    .name{animation:nameFlicker 7s steps(1,end) infinite}
+    @keyframes fall{from{transform:translateY(-240px)}to{transform:translateY(430px)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes pulse{50%{opacity:.28}}
+    @keyframes scan{0%{transform:translateY(-90px);opacity:0}15%{opacity:.75}85%{opacity:.75}100%{transform:translateY(180px);opacity:0}}
+    @keyframes flicker{0%,92%,100%{opacity:1}93%{opacity:.65}94%{opacity:1}96%{opacity:.3}97%{opacity:1}}
+    @keyframes glitchA{
+      0%,82%,100%{transform:translate(0,0);opacity:0}
+      83%{transform:translate(-5px,-1px);opacity:.95}
+      85%{transform:translate(4px,1px);opacity:.85}
+      87%{transform:translate(-2px,0);opacity:.9}
+      89%{transform:translate(0,0);opacity:0}
+    }
+    @keyframes glitchB{
+      0%,82%,100%{transform:translate(0,0);opacity:0}
+      84%{transform:translate(5px,1px);opacity:.9}
+      86%{transform:translate(-4px,-1px);opacity:.8}
+      88%{transform:translate(2px,0);opacity:.9}
+      90%{transform:translate(0,0);opacity:0}
+    }
+    @keyframes glitchCut{
+      0%,81%,100%{opacity:0;transform:translateX(0)}
+      83%{opacity:.9;transform:translateX(-8px)}
+      84%{opacity:0;transform:translateX(7px)}
+      86%{opacity:.75;transform:translateX(4px)}
+      88%{opacity:0;transform:translateX(0)}
+    }
+    @keyframes nameFlicker{0%,94%,100%{opacity:1}95%{opacity:.35}96%{opacity:1}97%{opacity:.6}98%{opacity:1}}
     @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <clipPath id="clip"><rect width="1200" height="390" rx="18"/></clipPath>
 </defs>
-<g clip-path="url(#clip)">
-<rect width="1200" height="390" fill="url(#bg)"/>
-<g class="rain"><text x="35" y="0">01 ﾑ ﾈ 10 ﾊ 01 ﾂ ﾖ 11 ﾛ 0 1 ﾐ 01</text><text x="250" y="0">ﾆ 0 1 ﾖ ﾑ 10 ﾂ 01 ﾊ ﾈ 1 0 ﾛ</text><text x="490" y="0">01 ﾐ ﾊ 10 ﾈ 01 ﾑ ﾖ 1 ﾂ 0 ﾛ 01</text><text x="740" y="0">ﾖ 1 0 ﾂ ﾊ 01 ﾈ ﾑ 10 ﾛ 1 ﾐ</text><text x="980" y="0">10 ﾊ 01 ﾖ ﾑ ﾈ 1 ﾂ 0 ﾛ 01 ﾐ</text></g>
-<g class="rain rain2"><text x="100" y="80">ﾆ 0 1 ﾖ ﾑ 10 ﾂ 01 ﾊ ﾈ 1 0 ﾛ</text><text x="360" y="80">01 ﾐ ﾊ 10 ﾈ 01 ﾑ ﾖ 1 ﾂ 0 ﾛ</text><text x="650" y="80">ﾖ 1 0 ﾂ ﾊ 01 ﾈ ﾑ 10 ﾛ 1 ﾐ</text><text x="920" y="80">10 ﾊ 01 ﾖ ﾑ ﾈ 1 ﾂ 0 ﾛ 01</text></g>
-<rect x="1" y="1" width="1198" height="388" rx="17" fill="none" stroke="#08752b" stroke-width="2"/>
-<path d="M40 315H1160" stroke="url(#line)" stroke-width="2"/>
-<circle cx="600" cy="125" r="84" fill="none" stroke="#00ff41" stroke-width="1.5" stroke-dasharray="5 9" class="pulse"/>
-<circle cx="600" cy="125" r="72" fill="#031a0b" stroke="#00ff41" stroke-width="2" filter="url(#glow)"/>
-<text x="600" y="145" text-anchor="middle" font-family="monospace" font-size="58" font-weight="bold" fill="#d8ffe1">SM</text>
-<text x="600" y="265" text-anchor="middle" font-family="monospace" font-size="48" font-weight="bold" letter-spacing="4" fill="#eaffef">SWARIT MATHUR</text>
-<text x="600" y="302" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="3" fill="#00ff41">CYBERSECURITY  ·  PYTHON  ·  DEVELOPMENT</text>
-<text x="40" y="42" font-family="monospace" font-size="13" fill="#00ff41">[ SYSTEM ONLINE ]</text>
-<text x="1160" y="42" text-anchor="end" font-family="monospace" font-size="13" fill="#00ff41">[ PROFILE: SM01010011 ]</text>
-</g></svg>
+
+<g clip-path="url(#frame)">
+  <rect width="1200" height="390" fill="url(#bg)"/>
+  <g class="rain">
+    <text x="35" y="0">01 ﾑ ﾈ 10 ﾊ 01 ﾂ ﾖ 11 ﾛ 0 1 ﾐ 01</text>
+    <text x="270" y="0">ﾆ 0 1 ﾖ ﾑ 10 ﾂ 01 ﾊ ﾈ 1 0 ﾛ</text>
+    <text x="510" y="0">01 ﾐ ﾊ 10 ﾈ 01 ﾑ ﾖ 1 ﾂ 0 ﾛ 01</text>
+    <text x="760" y="0">ﾖ 1 0 ﾂ ﾊ 01 ﾈ ﾑ 10 ﾛ 1 ﾐ</text>
+    <text x="990" y="0">10 ﾊ 01 ﾖ ﾑ ﾈ 1 ﾂ 0 ﾛ 01</text>
+  </g>
+  <g class="rain delay">
+    <text x="100" y="70">ﾆ 0 1 ﾖ ﾑ 10 ﾂ 01 ﾊ ﾈ 1 0 ﾛ</text>
+    <text x="390" y="70">01 ﾐ ﾊ 10 ﾈ 01 ﾑ ﾖ 1 ﾂ 0 ﾛ</text>
+    <text x="690" y="70">ﾖ 1 0 ﾂ ﾊ 01 ﾈ ﾑ 10 ﾛ 1 ﾐ</text>
+    <text x="970" y="70">10 ﾊ 01 ﾖ ﾑ ﾈ 1 ﾂ 0 ﾛ 01</text>
+  </g>
+  <rect width="1200" height="390" fill="#020b05" opacity=".22"/>
+  <rect x="1" y="1" width="1198" height="388" rx="17" fill="none" stroke="#08752b" stroke-width="2"/>
+  <path d="M40 315H1160" stroke="url(#line)" stroke-width="2"/>
+  <path d="M20 48V20H48M1152 20H1180V48M20 342V370H48M1152 370H1180V342" fill="none" stroke="#00ff41" stroke-width="2" opacity=".75"/>
+</g>
+
+<!-- rotating avatar rings -->
+<circle class="ring reverse" cx="600" cy="125" r="101" fill="none" stroke="#00ff41" stroke-opacity=".4" stroke-width="1.5" stroke-dasharray="40 18 5 18"/>
+<circle class="ring" cx="600" cy="125" r="91" fill="none" stroke="#00ff41" stroke-opacity=".8" stroke-width="2" stroke-dasharray="2 8"/>
+<circle class="pulse" cx="600" cy="125" r="82" fill="none" stroke="#00ff41" stroke-width="2" filter="url(#glow)"/>
+<circle cx="600" cy="125" r="76" fill="#031a0b" stroke="#00ff41" stroke-width="1.5"/>
+
+<!-- Glitching SM monogram: green core + cyan/magenta channel offsets + slicing bars -->
+<g clip-path="url(#avatarClip)">
+  <circle cx="600" cy="125" r="75" fill="#031a0b"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="61" font-weight="900" text-anchor="middle">
+    <text x="600" y="147" fill="#00ff41" opacity=".18" filter="url(#glow)">SM</text>
+    <text class="glitchA" x="600" y="147" fill="#ff315b" filter="url(#glow)">SM</text>
+    <text class="glitchB" x="600" y="147" fill="#00eaff" filter="url(#glow)">SM</text>
+    <text class="flicker" x="600" y="147" fill="#eaffef" stroke="#00ff41" stroke-width=".7" paint-order="stroke" filter="url(#glow)">SM</text>
+  </g>
+  <g class="glitchCut">
+    <rect x="510" y="102" width="180" height="8" fill="#00eaff" opacity=".9"/>
+    <rect x="520" y="145" width="160" height="5" fill="#ff315b" opacity=".9"/>
+  </g>
+  <rect class="scan" x="520" y="50" width="160" height="26" fill="#00ff41" opacity=".25"/>
+  <path d="M520 88H680M520 164H680M520 181H680" stroke="#00ff41" stroke-opacity=".23" stroke-width="1"/>
+  <rect x="520" y="50" width="160" height="150" fill="none" stroke="#00ff41" stroke-opacity=".18"/>
+</g>
+
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
+  <text class="name" x="600" y="265" font-size="46" font-weight="800" letter-spacing="4" fill="#eaffef" filter="url(#glow)">SWARIT MATHUR</text>
+  <text x="600" y="302" font-size="18" letter-spacing="3" fill="#00ff41">CYBERSECURITY  ·  PYTHON  ·  DEVELOPMENT<tspan class="flicker">_</tspan></text>
+</g>
+<g font-family="monospace" font-size="13" fill="#00ff41">
+  <text x="40" y="42">[ SYSTEM ONLINE ]</text>
+  <text x="1160" y="42" text-anchor="end">[ PROFILE: SM01010011 ]</text>
+</g>
+</svg>
