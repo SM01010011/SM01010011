@@ -1,14 +1,18 @@
-# Setup your GitHub profile
+# Manual setup
 
-This package is prepared for the profile repository `SM01010011`.
+Repository: `SM01010011/SM01010011`
 
-## Repository layout
+## Upload
 
-Keep this structure when uploading the files:
+1. Download and extract the ZIP.
+2. Open your GitHub profile repository: https://github.com/SM01010011/SM01010011
+3. Upload the **contents** of the extracted folder to the repository root. Do not upload the outer ZIP or create an extra nested folder.
+4. Keep the directory structure exactly as shown:
 
 ```text
 SM01010011/
 ├── README.md
+├── SETUP.md
 ├── assets/
 │   ├── matrix-hero.svg
 │   └── matrix-divider.svg
@@ -17,27 +21,22 @@ SM01010011/
         └── profile-assets.yml
 ```
 
-## Installation
+5. Commit the upload to the default branch.
 
-1. Open https://github.com/new.
-2. Create a **public** repository named exactly `SM01010011`.
-3. Upload the contents of this package, preserving the folders shown above.
-4. Commit the files to the repository's default branch (`main` is recommended).
-5. Open **Settings → Actions → General**.
-6. Under **Workflow permissions**, select **Read and write permissions**, then save.
-7. Open the **Actions** tab and enable workflows if GitHub asks.
-8. Run **Refresh Profile Assets** once using **Run workflow**.
+## Enable the contribution snake
 
-The workflow has two jobs:
-- It embeds your current GitHub avatar into `assets/matrix-hero.svg`.
-- It generates light and dark contribution-snake SVGs and publishes them to the `output` branch.
+1. Open **Settings → Actions → General**.
+2. Under **Workflow permissions**, select **Read and write permissions** and save.
+3. Open **Actions** and enable workflows if GitHub prompts you.
+4. Select **Refresh Profile Assets** → **Run workflow** → **Run workflow**.
+5. Wait for the run to finish successfully. It creates/updates the `output` branch with the light and dark snake SVGs.
 
-After the first successful run, the snake image should appear in your profile README. Scheduled runs refresh the assets every 12 hours. Push-triggered runs are limited to changes in the hero SVG or workflow file, so ordinary README edits do not waste workflow runs. GitHub may automatically disable scheduled workflows in repositories with prolonged inactivity; run the workflow manually if that happens.
+The snake image will appear after the output branch has been published. The scheduled workflow refreshes it every 12 hours.
 
 ## Notes
 
-- The profile repository name must match your GitHub username exactly.
-- The workflow needs `contents: write` permission to update the banner and publish the `output` branch. The workflow validates the edited hero SVG before committing it and serializes runs to avoid overlapping output-branch publishes.
-- The LinkedIn and email links in the README were retained from the files you supplied. Update them if either has changed.
-- GitHub README rendering does not run JavaScript or arbitrary CSS. The animated elements use SVGs and external image services.
-- GitHub statistics, contribution graphs, typing text and trophy cards depend on third-party services and may occasionally be unavailable.
+- The README and local SVG banner/divider do not depend on GitHub Readme Stats or skill-icons servers.
+- Shields.io is used for technology badges and repository counters.
+- The contribution snake requires GitHub Actions to run successfully.
+- External badge and footer image services can occasionally be unavailable; no third-party service can be guaranteed.
+- The avatar in the banner is a stylized `SM` monogram, not a photo. Replace it only if you want to add a profile photo.

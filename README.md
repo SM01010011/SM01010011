@@ -1,56 +1,33 @@
 <div align="center">
 
-<img src="./assets/matrix-hero.svg" width="100%" alt="Swarit Mathur — animated Matrix-inspired cybersecurity profile banner"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=800&color=00FF41&center=true&vCenter=true&width=780&lines=Computer+Science+Engineering+Student;Cybersecurity+Enthusiast+%F0%9F%94%90;Python+Developer+%F0%9F%90%8D;Exploring+Ethical+Hacking+%26+System+Security;Building+Practical+Projects+That+Matter" alt="Animated introduction"/>
-
-<br/><br/>
+<img src="./assets/matrix-hero.svg" width="100%" alt="Swarit Mathur — Matrix-themed profile banner"/>
 
 <a href="https://github.com/SM01010011">
-  <img src="https://komarev.com/ghpvc/?username=SM01010011&style=for-the-badge&color=0a4d1c&labelColor=020b05&label=PROFILE+VIEWS" alt="Profile views"/>
-</a>
-<a href="https://github.com/SM01010011?tab=followers">
-  <img src="https://img.shields.io/github/followers/SM01010011?style=for-the-badge&color=0a4d1c&labelColor=020b05&logo=github&logoColor=00ff41&label=FOLLOWERS" alt="GitHub followers"/>
+  <img src="https://img.shields.io/badge/GITHUB-SM01010011-07130b?style=for-the-badge&logo=github&logoColor=00ff41" alt="GitHub"/>
 </a>
 <a href="https://www.linkedin.com/in/swarit-mathur-2381b6391">
-  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0a4d1c?style=for-the-badge&labelColor=020b05&logo=linkedin&logoColor=00ff41" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-07130b?style=for-the-badge&logo=linkedin&logoColor=00a0dc" alt="LinkedIn"/>
 </a>
 <a href="mailto:swaritmathur00@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-SAY%20HELLO-0a4d1c?style=for-the-badge&labelColor=020b05&logo=gmail&logoColor=00ff41" alt="Email"/>
+  <img src="https://img.shields.io/badge/EMAIL-SAY_HELLO-07130b?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email"/>
 </a>
 
-</div>
+<img src="./assets/matrix-divider.svg" width="100%" alt="Animated divider"/>
 
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
-
-<div align="center">
-
-### `ABOUT ME`
-
-**Computer Science Engineering Student · Cybersecurity Enthusiast · Developer**
+`COMPUTER SCIENCE ENGINEERING` · `CYBERSECURITY` · `PYTHON`
 
 </div>
 
-I'm **Swarit Mathur**, a Computer Science Engineering student at **Lovely Professional University**, interested in the way software, networks and systems work beneath the surface.
+## `$ whoami`
 
-I enjoy learning by building: exploring cybersecurity fundamentals, writing Python programs, experimenting with developer tools and creating practical projects that solve real problems. I am currently strengthening my foundations in Linux, networking and system security.
+I'm **Swarit Mathur**, a Computer Science Engineering student at **Lovely Professional University**. I'm interested in understanding how software, networks and systems work beneath the surface.
+
+I learn by building practical projects, experimenting with tools and strengthening my foundations in **cybersecurity, Linux, networking and Python**.
 
 ```python
 class SwaritMathur:
-    name = "Swarit Mathur"
-    role = "Computer Science Engineering Student"
-
-    interests = [
-        "Cybersecurity",
-        "Ethical Hacking",
-        "Python Development",
-        "Computer Networks",
-        "Problem Solving",
-    ]
-
-    philosophy = "Understand. Build. Break. Secure."
+    focus = ["Cybersecurity", "Python", "Computer Networks", "Linux"]
+    mindset = "Understand. Build. Break. Secure."
 
     def next_step(self):
         return "Learn something. Build something. Repeat."
@@ -60,126 +37,143 @@ me = SwaritMathur()
 print(me.next_step())
 ```
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/FOCUS-CYBERSECURITY-020b05?style=flat-square&logo=hackthebox&logoColor=9FEF00" alt="Cybersecurity focus"/>
-<img src="https://img.shields.io/badge/BUILDING-WITH%20PYTHON-020b05?style=flat-square&logo=python&logoColor=FFD43B" alt="Python development"/>
-<img src="https://img.shields.io/badge/MINDSET-CONTINUOUS%20LEARNING-020b05?style=flat-square&logo=github&logoColor=00ff41" alt="Continuous learning"/>
-
-</div>
-
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
+## `$ tech-stack`
 
 <div align="center">
 
-### `TECHNOLOGIES & TOOLS`
+**Languages**
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,js,html,css,git,github,vscode,linux,docker,firebase,arduino&theme=dark&perline=7" alt="Languages, tools and technologies"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 
-<br/><br/>
+**Tools & Platforms**
 
-<img src="https://img.shields.io/badge/EXPLORING-CYBERSECURITY-020b05?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Cybersecurity"/>
-<img src="https://img.shields.io/badge/EXPLORING-NETWORKING-020b05?style=for-the-badge&logo=cisco&logoColor=00BCEB" alt="Networking"/>
-<img src="https://img.shields.io/badge/EXPLORING-LINUX-020b05?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
+
+**Currently exploring**
+
+<img src="https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Cybersecurity"/>
+<img src="https://img.shields.io/badge/Networking-111111?style=for-the-badge&logo=cisco&logoColor=00BCEB" alt="Networking"/>
+<img src="https://img.shields.io/badge/Ethical_Hacking-111111?style=for-the-badge&logo=kalilinux&logoColor=557C94" alt="Ethical hacking"/>
 
 </div>
 
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
+<img src="./assets/matrix-divider.svg" width="100%" alt="Animated divider"/>
 
-<div align="center">
+## `$ ./featured-projects`
 
-### `FEATURED PROJECTS`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/SM01010011/HWCM">
-  <img width="85%" src="https://github-readme-stats.vercel.app/api/pin/?username=SM01010011&repo=HWCM&theme=transparent&hide_border=true&title_color=00ff41&text_color=b6ffc6&icon_color=00ff41&bg_color=020b05" alt="HWCM project card"/>
-</a>
-<a href="https://github.com/SM01010011/WildHunt-AI">
-  <img width="85%" src="https://github-readme-stats.vercel.app/api/pin/?username=SM01010011&repo=WildHunt-AI&theme=transparent&hide_border=true&title_color=00ff41&text_color=b6ffc6&icon_color=00ff41&bg_color=020b05" alt="WildHunt AI project card"/>
-</a>
+### [HWCM Monitor](https://github.com/SM01010011/HWCM)
 
-</div>
+**Human-Wildlife Conflict Management**
 
-**[HWCM Monitor](https://github.com/SM01010011/HWCM)** — *Human-Wildlife Conflict Management*
+An academic early-warning dashboard prototype demonstrating data-driven risk indicators and human review for wildlife-conflict awareness.
 
-An academic early-warning dashboard prototype demonstrating how data-driven risk indicators can support human review and wildlife-conflict awareness. The current demonstration uses synthetic data and a transparent, rule-based scoring model; it is not a deployed wildlife-monitoring system.
-
-- Interactive wildlife monitoring dashboard
+- Interactive monitoring dashboard
 - Weighted, rule-based risk classification
 - Low, moderate and high risk alerts
 - Human verification workflow
-- Hotspot visualization and report generation
+- Hotspot visualization and reports
 
-**[WildHunt AI](https://github.com/SM01010011/WildHunt-AI)** — *Local AI-powered wildlife exploration*
-
-A React + Vite progressive web app exploring local Ollama vision models, developed collaboratively as an open-source project. The model runs locally, so inference does not depend on a hosted vision API.
-
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
-
-<div align="center">
-
-### `GITHUB ANALYTICS`
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SM01010011&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&title_color=00ff41&text_color=b6ffc6&icon_color=00ff41&bg_color=020b05" alt="GitHub statistics"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SM01010011&layout=compact&langs_count=8&hide_border=true&title_color=00ff41&text_color=b6ffc6&bg_color=020b05" alt="Most used languages"/>
-
-<br/><br/>
-
-<img width="85%" src="https://streak-stats.demolab.com?user=SM01010011&background=020B05&border=0A3D18&stroke=0A3D18&ring=00FF41&fire=00FF41&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00FF41&sideLabels=B6FFC6&dates=5FBF7A&hide_border=true" alt="GitHub contribution streak"/>
-
-</div>
-
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
-
-<div align="center">
-
-### `CONTRIBUTION ACTIVITY`
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=SM01010011&bg_color=020b05&color=00ff41&line=00ff41&point=ffffff&area=true&area_color=00ff41&hide_border=true&custom_title=CONTRIBUTION%20TIMELINE" alt="GitHub contribution activity graph"/>
+<sub>Academic prototype · Synthetic data · Rule-based demonstration</sub>
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SM01010011/SM01010011/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SM01010011/SM01010011/output/github-snake.svg"/>
-  <img width="100%" src="https://raw.githubusercontent.com/SM01010011/SM01010011/output/github-snake-dark.svg" alt="Animated GitHub contribution snake"/>
-</picture>
+<a href="https://github.com/SM01010011/HWCM">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-00A83B?style=for-the-badge&logo=github&logoColor=white" alt="View HWCM repository"/>
+</a>
 
-</div>
+</td>
+<td width="50%" valign="top">
 
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
+### [WildHunt AI](https://github.com/SM01010011/WildHunt-AI)
+
+**Local AI-powered wildlife exploration**
+
+A collaborative open-source React + Vite progressive web app exploring local Ollama vision models.
+
+- React + Vite application
+- Local vision-model experimentation
+- Ollama-based inference
+- Progressive web app approach
+
+<br/><br/>
+
+<a href="https://github.com/SM01010011/WildHunt-AI">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-00A83B?style=for-the-badge&logo=github&logoColor=white" alt="View WildHunt AI repository"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/matrix-divider.svg" width="100%" alt="Animated divider"/>
+
+## `$ git status --short`
 
 <div align="center">
 
-### `ACHIEVEMENTS`
+<a href="https://github.com/SM01010011?tab=repositories">
+  <img src="https://img.shields.io/badge/PUBLIC_REPOSITORIES-VIEW_ALL-07130b?style=for-the-badge&logo=github&logoColor=00ff41" alt="View repositories"/>
+</a>
+<a href="https://github.com/SM01010011?tab=followers">
+  <img src="https://img.shields.io/github/followers/SM01010011?label=FOLLOWERS&style=for-the-badge&color=14532d&labelColor=07130b&logo=github" alt="GitHub followers"/>
+</a>
+<a href="https://github.com/SM01010011">
+  <img src="https://komarev.com/ghpvc/?username=SM01010011&style=for-the-badge&color=14532d&label=PROFILE+VIEWS" alt="Profile views"/>
+</a>
 
-<img src="https://github-profile-trophy.vercel.app/?username=SM01010011&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=6" alt="GitHub profile trophies"/>
+<br/><br/>
+
+<a href="https://github.com/SM01010011?tab=repositories">
+  <img src="https://img.shields.io/badge/REPOSITORY_ACTIVITY-EXPLORE_ON_GITHUB-07130b?style=for-the-badge&logo=github&logoColor=00ff41" alt="Explore repository activity"/>
+</a>
 
 </div>
 
-<img src="./assets/matrix-divider.svg" width="100%" alt="Animated Matrix divider"/>
+## `$ contribution-graph`
 
 <div align="center">
 
-### `LET'S CONNECT`
+<img src="https://raw.githubusercontent.com/SM01010011/SM01010011/output/github-snake-dark.svg" width="100%" alt="Animated contribution snake (generated by GitHub Actions)"/>
+
+<sub>If this image is not visible yet, run the <b>Refresh Profile Assets</b> workflow once from the Actions tab.</sub>
+
+</div>
+
+<img src="./assets/matrix-divider.svg" width="100%" alt="Animated divider"/>
+
+## `$ connect`
+
+<div align="center">
 
 <a href="https://github.com/SM01010011">
-  <img src="https://img.shields.io/badge/GITHUB-EXPLORE%20MY%20WORK-0a4d1c?style=for-the-badge&labelColor=020b05&logo=github&logoColor=00ff41" alt="GitHub profile"/>
+  <img src="https://img.shields.io/badge/GitHub-Follow_my_work-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <a href="https://www.linkedin.com/in/swarit-mathur-2381b6391">
-  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0a4d1c?style=for-the-badge&labelColor=020b05&logo=linkedin&logoColor=00ff41" alt="LinkedIn profile"/>
+  <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:swaritmathur00@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-GET%20IN%20TOUCH-0a4d1c?style=for-the-badge&labelColor=020b05&logo=gmail&logoColor=00ff41" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1100&color=00FF41&center=true&vCenter=true&width=650&lines=Think+Beyond+Limits.;Build+With+Purpose.;Secure+What+Matters.;Never+Stop+Exploring." alt="Animated closing statement"/>
+**Understand. Build. Break. Secure.**
 
-<br/>
-
-**Thanks for visiting my digital workspace.**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,50:0a4d1c,100:020b05&height=130&section=footer&animation=twinkling" alt="Animated Matrix footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,50:0a4d1c,100:020b05&height=120&section=footer" width="100%" alt="Green footer wave"/>
 
 </div>
