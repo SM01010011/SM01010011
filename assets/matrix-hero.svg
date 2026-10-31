@@ -89,7 +89,7 @@
 <!-- Glitching SM monogram: green core + cyan/magenta channel offsets + slicing bars -->
 <g clip-path="url(#avatarClip)">
   <circle cx="600" cy="125" r="75" fill="#031a0b"/>
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="61" font-weight="900" text-anchor="middle">
+  <g font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="66" font-style="italic" font-weight="900" text-anchor="middle">
     <text x="600" y="147" fill="#00ff41" opacity=".18" filter="url(#glow)">SM</text>
     <text class="glitchA" x="600" y="147" fill="#ff315b" filter="url(#glow)">SM</text>
     <text class="glitchB" x="600" y="147" fill="#00eaff" filter="url(#glow)">SM</text>
@@ -104,8 +104,8 @@
   <rect x="520" y="50" width="160" height="150" fill="none" stroke="#00ff41" stroke-opacity=".18"/>
 </g>
 
-<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" text-anchor="middle">
-  <text class="name" x="600" y="265" font-size="46" font-weight="800" letter-spacing="4" fill="#eaffef" filter="url(#glow)">SWARIT MATHUR</text>
+<g font-family="Impact, Haettenschweiler, 'Arial Black', sans-serif" text-anchor="middle">
+  <text class="name" x="600" y="265" font-size="48" font-weight="900" font-style="italic" letter-spacing="5" fill="#eaffef" filter="url(#glow)">SWARIT MATHUR</text>
   <text x="600" y="302" font-size="18" letter-spacing="3" fill="#00ff41">CYBERSECURITY  ·  PYTHON  ·  DEVELOPMENT<tspan class="flicker">_</tspan></text>
 </g>
 <g font-family="monospace" font-size="13" fill="#00ff41">
