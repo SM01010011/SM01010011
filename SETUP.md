@@ -1,42 +1,12 @@
-# Manual setup
+# Setup (5 minutes)
 
-Repository: `SM01010011/SM01010011`
+1. On GitHub create a **public** repo named exactly `SM01010011` (same as your username) with "Add a README" ticked.
+2. Upload everything from this folder, keeping the structure: `README.md`, `assets/`, `.github/workflows/profile.yml`.
+   On a phone, make the workflow with Add file > Create new file, name it `.github/workflows/profile.yml`, and paste the contents.
+3. Settings > Actions > General > Workflow permissions > **Read and write permissions** > Save.
+4. Actions tab > "Profile animations" > Run workflow. In about a minute it creates `profile-3d-contrib/` (the 3D graph) and an `output` branch with `snake.svg`.
+5. Open github.com/SM01010011 and refresh. Images can take a few minutes to update.
 
-## Upload
-
-1. Download and extract the ZIP.
-2. Open your GitHub profile repository: https://github.com/SM01010011/SM01010011
-3. Upload the **contents** of the extracted folder to the repository root. Do not upload the outer ZIP or create an extra nested folder.
-4. Keep the directory structure exactly as shown:
-
-```text
-SM01010011/
-├── README.md
-├── SETUP.md
-├── assets/
-│   ├── matrix-hero.svg
-│   └── matrix-divider.svg
-└── .github/
-    └── workflows/
-        └── profile-assets.yml
-```
-
-5. Commit the upload to the default branch.
-
-## Enable the contribution snake
-
-1. Open **Settings → Actions → General**.
-2. Under **Workflow permissions**, select **Read and write permissions** and save.
-3. Open **Actions** and enable workflows if GitHub prompts you.
-4. Select **Refresh Profile Assets** → **Run workflow** → **Run workflow**.
-5. Wait for the run to finish successfully. It creates/updates the `output` branch with the light and dark snake SVGs.
-
-The snake image will appear after the output branch has been published. The scheduled workflow refreshes it every 12 hours.
-
-## Notes
-
-- The README and local SVG banner/divider do not depend on GitHub Readme Stats or skill-icons servers.
-- Shields.io is used for technology badges and repository counters.
-- The contribution snake requires GitHub Actions to run successfully.
-- External badge and footer image services can occasionally be unavailable; no third-party service can be guaranteed.
-- The avatar in the banner is a stylized `SM` monogram, not a photo. Replace it only if you want to add a profile photo.
+Notes
+- Text inside the banners is baked into the artwork so it looks the same on every device. To change wording, ask Claude to regenerate.
+- If a stats card shows an error, the free stats server is busy. Refresh later.
