@@ -76,6 +76,4 @@ I'm a technology enthusiast focused on **software development and cybersecurity*
 
 *Thanks for stopping by. Keep exploring, keep building, and stay curious.*
 
-<sub>Pokémon and Rayquaza are © Nintendo / Creatures Inc. / GAME FREAK inc. This is an unofficial, non-commercial fan-themed profile.</sub>
-
 </div>
